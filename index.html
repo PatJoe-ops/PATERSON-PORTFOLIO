@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paterson | AWS & IT Specialist</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Montserrat', sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:#fff;
+    line-height:1.6;
+}
+
+header{
+    background:#020617;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:700;
+    color:#38bdf8;
+}
+
+nav a{
+    text-decoration:none;
+    color:#fff;
+    margin-left:25px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* HERO */
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:0 20px;
+    background:linear-gradient(to right,#0f172a,#1e293b);
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero span{
+    color:#38bdf8;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 30px;
+    background:#38bdf8;
+    color:#000;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+}
+
+section{
+    padding:100px 8%;
+    text-align:center;
+}
+
+section h2{
+    font-size:32px;
+    margin-bottom:40px;
+    color:#38bdf8;
+}
+
+/* CARDS */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.4);
+}
+
+/* FOOTER */
+footer{
+    background:#020617;
+    padding:30px;
+    text-align:center;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Paterson Portfolio</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <div>
+        <h1>Hello, I'm <span>Paterson</span></h1>
+        <p>Aspiring AWS Cloud Practitioner | IT Specialist | Networking & CCTV Engineer</p>
+        <a href="#contact" class="btn">Hire Me</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a graduate of Information Technology from the Federal University of Technology Owerri (FUTO), 
+        with a Second Class Upper Division. I am currently preparing for AWS Cloud Practitioner certification 
+        and have hands-on experience in computer repair and maintenance, networking setup, and CCTV installation.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>AWS Cloud (In Progress)</h3>
+            <p>EC2, S3, IAM, Cloud Concepts, Deployment basics.</p>
+        </div>
+
+        <div class="card">
+            <h3>Computer Maintenance</h3>
+            <p>System repair, OS installation, troubleshooting, hardware replacement.</p>
+        </div>
+
+        <div class="card">
+            <h3>Networking</h3>
+            <p>LAN setup, router configuration, IP addressing, troubleshooting.</p>
+        </div>
+
+        <div class="card">
+            <h3>CCTV Installation</h3>
+            <p>Camera setup, DVR/NVR configuration, structured cabling.</p>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>GitHub Projects</h2>
+    <p>You can view my hands-on practical projects on GitHub:</p>
+    <br>
+    <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" class="btn">View My GitHub</a>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: youremail@example.com</p>
+    <p>Phone: +234 XXX XXX XXXX</p>
+    <p>Location: Nigeria</p>
+</section>
+
+<footer>
+    <p>© 2026 Paterson | AWS & IT Specialist Portfolio</p>
+</footer>
+
+</body>
+</html>
